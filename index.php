@@ -65,6 +65,8 @@
                         </li>
                         <li><a href="about.php">Acerca de</a></li>
                         <li><a href="contact.php">Contacto</a></li>
+                        <li><a href="contact.php">Registrarse</a></li>
+                        <li><a href="contact.php">Ingresar</a></li>
                     </ul>
                 </nav>
             </div>
@@ -283,14 +285,14 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/main.js"></script>
-
+<script src="../View/js/login.js"></script>
   </body>
 
     <?php 
    
     ?>
 
-  
+
 
 </body>
 

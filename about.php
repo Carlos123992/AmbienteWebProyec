@@ -66,6 +66,8 @@
                           </li>
                           <li><a href="about.php">Acerca de</a></li>
                           <li><a href="contact.php">Contacto</a></li>
+                          <li><a href="contact.php">Registrarse</a></li>
+                        <li><a href="contact.php">Ingresar</a></li>
                       </ul>
                   </nav>
               </div>
