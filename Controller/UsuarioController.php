@@ -21,7 +21,7 @@ if(isset($_POST["btnIngresar"]))
     }
     else
     {
-        header("Location: index.php");
+        header("Location: inicio.php");
     }
 }
 ?>

@@ -49,13 +49,13 @@ function menuC(){
         <div class="d-flex align-items-center justify-content-between">
             <div class="logo">
                 <div class="site-logo">
-                    <a href="index.php" class="js-logo-clone"><strong class="text-primary">VIDA</strong>Natural</a>
+                    <a href="inicio.php" class="js-logo-clone"><strong class="text-primary">VIDA</strong>Natural</a>
                 </div>
             </div>
             <div class="main-nav d-none d-lg-block">
                 <nav class="site-navigation text-right text-md-center" role="navigation">
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
-                        <li class="active"><a href="index.php">Inicio</a></li>
+                        <li class="active"><a href="inicio.php">Inicio</a></li>
                         <li><a href="shop.php">Tienda</a></li>
                         <li class="has-children">
                             <a href="#">Productos</a>
