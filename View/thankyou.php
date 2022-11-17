@@ -23,7 +23,7 @@ headerG();
 <div class="bg-light py-3">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 mb-0"><a href="index.php">Home</a> <span class="mx-2 mb-0">/</span> <strong
+      <div class="col-md-12 mb-0"><a href="inicio.php">Home</a> <span class="mx-2 mb-0">/</span> <strong
           class="text-black">Thank You</strong></div>
     </div>
   </div>

@@ -1,4 +1,21 @@
 <?php
+function headerLogin()
+{
+  echo '<title>Título</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+        <link href="View/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="View/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="View/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="View/css/bootstrap-social.css" rel="stylesheet" type="text/css">	    
+        <link href="View/css/templatemo_style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <link rel="stylesheet" type="text/css" href="css/my-login.css">';
+}
+
 function headerG(){
 echo '
 <title>Macro biotica &mdash; Vida Natural</title>
@@ -15,6 +32,7 @@ echo '
 <script src="https://kit.fontawesome.com/295839e1c0.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/aos.css">
 <link rel="stylesheet" href="css/style.css">';
+
 }
 
 function menuC(){
@@ -124,5 +142,11 @@ function footerC(){
 
     </div>
   </div>';
+
 }
-?>
+function footerLogin()
+  {
+      echo '<script src="../View/js/jquery.min.js"></script>
+            <script src="../View/js/bootstrap.min.js"></script>'; 
+  }
+ 

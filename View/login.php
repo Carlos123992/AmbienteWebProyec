@@ -1,6 +1,6 @@
 <?php
 
-  session_start();
+  session_start();x
 
   if (isset($_SESSION['user_id'])) {
     header('Location: /php-login');
