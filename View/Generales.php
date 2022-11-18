@@ -94,6 +94,29 @@ function menuC(){
 </div>';
 }
 
+
+
+function menuAdmin()
+{
+  echo '<nav class="dashboard-nav-list"><a href="#" class="dashboard-nav-item"><i class="fas fa-home"></i>
+  Ir al inicio </a>
+  <div class="dashboard-nav-dropdown"><a href="dashUsuarios.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Usuarios </a>
+  </div>
+  <div class="dashboard-nav-dropdown"><a href="#!" class="dashboard-nav-item"><i class="fa-solid fa-boxes-stacked"></i></i> Inventario </a>
+  <div class="dashboard-nav-dropdown-menu"><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#" class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item">Images</a><a href="#" class="dashboard-nav-dropdown-item">Video</a></div>
+  </div>
+
+  <div class="dashboard-nav-dropdown"><a href="#!" class="dashboard-nav-item"><i class="fa-solid fa-exclamation"></i> Auxiliar </a>
+  <div class="dashboard-nav-dropdown-menu"><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#" class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item"> Projections</a>
+  </div>
+  </div>
+  <div class="nav-item-divider"></div>
+  <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+  </nav>';
+}
+
+
+
 function footerC(){
     echo '<div class="container">
     <div class="row">
@@ -149,4 +172,3 @@ function footerLogin()
       echo '<script src="../View/js/jquery.min.js"></script>
             <script src="../View/js/bootstrap.min.js"></script>'; 
   }
- 
