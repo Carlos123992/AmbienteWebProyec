@@ -98,11 +98,19 @@ function menuC(){
 
 function menuAdmin()
 {
+<<<<<<< HEAD
   echo '<nav class="dashboard-nav-list"><a href="Inicio.php" class="dashboard-nav-item"><i class="fas fa-home"></i>
   Ir al inicio </a>
   <div class="dashboard-nav-dropdown"><a href="dashUsuarios.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Usuarios </a>
   </div>
   <div class="dashboard-nav-dropdown"><a href="dashInventario.php" class="dashboard-nav-item"><i class="fa-solid fa-boxes-stacked"></i></i> Inventario </a>
+=======
+  echo '<nav class="dashboard-nav-list"><a href="#" class="dashboard-nav-item"><i class="fas fa-home"></i>
+  Ir al inicio </a>
+  <div class="dashboard-nav-dropdown"><a href="dashUsuarios.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Usuarios </a>
+  </div>
+  <div class="dashboard-nav-dropdown"><a href="#!" class="dashboard-nav-item"><i class="fa-solid fa-boxes-stacked"></i></i> Inventario </a>
+>>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
   <div class="dashboard-nav-dropdown-menu"><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#" class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item">Images</a><a href="#" class="dashboard-nav-dropdown-item">Video</a></div>
   </div>
 
@@ -111,7 +119,11 @@ function menuAdmin()
   </div>
   </div>
   <div class="nav-item-divider"></div>
+<<<<<<< HEAD
   <a href="../index.php" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+=======
+  <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+>>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
   </nav>';
 }
 
