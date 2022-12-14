@@ -47,15 +47,11 @@
                                     </button>
                                 </div>
                                 <div class="mt-4 text-center">
-<<<<<<< HEAD
 
                                    Quieres ingresar a ver productos
 
                                     <a href="View/inicio.php">Entrada Usuarios</a>
 
-=======
-                                    Don't have an account? <a href="register.html">Create One</a>
->>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
                                 </div>
                             </form>
                         </div>

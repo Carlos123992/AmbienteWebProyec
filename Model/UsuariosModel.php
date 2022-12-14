@@ -10,7 +10,6 @@ function ValidarCredenciales($correo, $password)
     CloseDB($enlace);
     return $datosUsuario;
 }
-<<<<<<< HEAD
 
 function ListarUsuarios(){
     $enlace = OpenDB();
@@ -20,6 +19,4 @@ function ListarUsuarios(){
     CloseDB($enlace);
     return $datosUsuario;
 }
-=======
->>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
 ?>

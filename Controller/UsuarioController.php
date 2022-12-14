@@ -17,18 +17,13 @@ if(isset($_POST["btnIngresar"]))
         $resultado = mysqli_fetch_array($datosUsuario);
 
         $_SESSION["sesionNombre"] = $resultado["nombre"];
-<<<<<<< HEAD
         header("Location: View\dashboard.php");
-=======
-        header("Location: View\inicio.php");
->>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
     }
     else
     {
         header("Location: inicio.php");
     }
 }
-<<<<<<< HEAD
 
 function CargarUsuarios(){
     $datosUsuarios = ListarUsuarios();
@@ -49,6 +44,4 @@ function CargarUsuarios(){
         }
     }
 }
-=======
->>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
 ?>
