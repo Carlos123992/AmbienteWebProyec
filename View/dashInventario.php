@@ -30,6 +30,7 @@
                          <div class='card-header'>
                              <h1>Inventario de Productos</h1>
                          </div>
+                         <a href="agregarProducto.php" class="btn btn-primary px-5 py-3" style="width: 20%; margin-left:40%;">Agregar</a>
                          <div class='card-body'>
                          
                          <div class="row">
@@ -44,6 +45,7 @@
                                     <th>Stock</th>
                                     <th>ID del Proveedor</th>
                                     <th>ID de la categoria</th>
+                                    <th>Imagen</th>
                                     <th>Acciones</th>
                                 </tr>
                             </thead>

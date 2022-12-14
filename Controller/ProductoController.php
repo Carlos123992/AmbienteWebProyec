@@ -14,6 +14,7 @@ function CargarProductos(){
             echo "<td>" . $resultado["cantidad"] . "</td>";
             echo "<td>" . $resultado["id_proveedor"] . "</td>";
             echo "<td>" . $resultado["id_categoria"] . "</td>";
+            echo "<td>" . $resultado["img"] . "</td>";
             echo '<td><a href="ProductoEditar.php?q=' . $resultado["id_producto"] . '">Editar<a/></td>';
             echo "</tr>";
         }

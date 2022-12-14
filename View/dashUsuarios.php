@@ -1,9 +1,6 @@
 <?php
     include_once 'Generales.php';
-<<<<<<< HEAD
     include_once '../Controller/UsuarioController.php';
-=======
->>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
     ?>
 
  <!DOCTYPE html>
@@ -41,7 +38,6 @@
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-<<<<<<< HEAD
                                     <th>ID del Usuario</th>
                                     <th>Nombre</th>
                                     <th>Apellido</th>
@@ -49,25 +45,13 @@
                                     <th>Password</th>
                                     <th>Credito</th>
                                     <th>ID del Rol</th>
-=======
-                                    <th>Cédula</th>
-                                    <th>Nombre</th>
-                                    <th>Correo Electrónico</th>
-                                    <th>Tipo Usuario</th>
->>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
                                     <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody>
-<<<<<<< HEAD
                                 <?php
                                     CargarUsuarios();
                                 ?>
-=======
-
-                               
-
->>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
                             </tbody>
                         </table>
 
