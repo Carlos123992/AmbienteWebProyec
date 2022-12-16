@@ -1,6 +1,8 @@
 <?php
-    include_once 'Generales.php';
-    include_once '../Controller/CategoriaController.php';
+    include_once 'GeneralesProveedor.php';
+    include_once '../../Controller/ProveedorController.php';
+
+    $datos = ConsultarDatosProveedor($_GET["q"]);
     ?>
 
 <!DOCTYPE html>
@@ -29,20 +31,23 @@
                 <div class='container'>
                     <div class='card'>
                         <div class='card-header'>
-                            <h1>Agregar Categoria</h1>
+                            <h1>Editar Proveedor</h1>
                         </div>
                         <form action="" method="post">
                             <br /><br />
+                            <input type="hidden" value="<?php echo $datos["id_proveedor"] ?>" id="txtId" name="txtId">
                             <div class="row">
                                 <div class="col-md-1 margin-bottom-15"></div>
                                 <div class="col-md-3 margin-bottom-15">
                                     <label for="lblNombre" class="control-label">Nombre</label>
-                                    <input type="text" class="form-control" id="txtNombre" name="txtNombre">
+                                    <input type="text" class="form-control" id="txtNombre" name="txtNombre"
+                                        value="<?php echo $datos["nombre"] ?>">
                                 </div>
                                 <div class="col-md-1 margin-bottom-15"></div>
                                 <div class="col-md-3 margin-bottom-15">
-                                    <label for="lblDescripcion" class="control-label">Descripcion</label>
-                                    <input type="text" class="form-control" id="txtDescripcion" name="txtDescripcion">
+                                    <label for="lblDireccion" class="control-label">Direccion</label>
+                                    <input type="text" class="form-control" id="txtDireccion" name="txtDireccion"
+                                        value="<?php echo $datos["direccion"] ?>">
                                 </div>
                                 <div class="col-md-1 margin-bottom-15"></div>
                             </div>
@@ -50,8 +55,8 @@
                             <div class="row">
                                 <div class="col-md-8 margin-bottom-15"></div>
                                 <div class="col-md-3 margin-bottom-15">
-                                    <input type="submit" class="btn btn-info" value="Procesar" id="btnAgregar" name="btnAgregar" style="width:110px">
-                                    <a href="dashCategoria.php"><button type="button"class="btn btn-danger" style="margin-bottom: 18px;">Cancelar</button></a>
+                                    <input type="submit" class="btn btn-info" value="Procesar" id="btnActualizar" name="btnActualizar" style="width:110px">
+                                    <a href="dashProveedores.php"><button type="button"class="btn btn-danger" style="margin-bottom: 18px;">Cancelar</button></a>
                                 </div>
                             </div>
                         </form>

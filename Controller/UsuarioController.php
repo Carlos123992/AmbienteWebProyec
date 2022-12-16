@@ -17,7 +17,7 @@ if(isset($_POST["btnIngresar"]))
         $resultado = mysqli_fetch_array($datosUsuario);
 
         $_SESSION["sesionNombre"] = $resultado["nombre"];
-        header("Location: View\inicio.php");
+        header("Location: View\dashboard.php");
     }
     else
     {

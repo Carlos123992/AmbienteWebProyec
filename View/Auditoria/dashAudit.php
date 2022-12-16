@@ -1,6 +1,6 @@
 <?php
-    include_once 'Generales.php';
-    include_once '../Controller/UsuarioController.php';
+    include_once 'GeneralesAudit.php';
+    include_once '../../Controller/AuditController.php';
     ?>
 
  <!DOCTYPE html>
@@ -28,7 +28,7 @@
                  <div class='container'>
                      <div class='card'>
                          <div class='card-header'>
-                             <h1>Usuarios</h1>
+                             <h1>Auditorias</h1>
                          </div>
                          <div class='card-body'>
                          
@@ -38,19 +38,15 @@
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th>ID del Usuario</th>
-                                    <th>Nombre</th>
-                                    <th>Apellido</th>
-                                    <th>Correo Electrónico</th>
-                                    <th>Password</th>
-                                    <th>Credito</th>
-                                    <th>ID del Rol</th>
-                                    <th>Acciones</th>
+                                    <th>ID de Auditoria</th>
+                                    <th>Fecha</th>
+                                    <th>Accion</th>
+                                    <th>Tabla</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php
-                                    CargarUsuarios();
+                                    CargarAudit();
                                 ?>
                             </tbody>
                         </table>

@@ -1,5 +1,5 @@
 <?php
-include_once "../Model/ProveedorModel.php";
+include_once "../../Model/ProveedorModel.php";
 
 function CargarProveedores(){
     $datosProveedor = ListarProveedores();
@@ -16,7 +16,7 @@ function CargarProveedores(){
         }
     }
 }
-
+/*
 function VerificarProveedor($id_proveedor){
     $datosProveedor = Proveedor_producto($id_proveedor);
     if($datosProveedor -> num_rows > 0){
@@ -25,7 +25,7 @@ function VerificarProveedor($id_proveedor){
         //se borra
     }
 }
-
+*/
 function ConsultarDatosProveedor($id_proveedor)
 {
     $datos = ConsultarDatosProveedorModel($id_proveedor);   

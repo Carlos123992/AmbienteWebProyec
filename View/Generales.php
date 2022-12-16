@@ -74,23 +74,65 @@ function menuC(){
                                 <li><a href="#">Te &amp; Cafe</a></li>
                             </ul>
                         </li>
-                        <li><a href="about.php">Acerca de</a></li>
-                        <li><a href="contact.php">Contacto</a></li>
+                        <li><a href="#about">Acerca de</a></li>
+                        <li><a href="contact.php">Contacto Empresarial</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="icons">
-                <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
-                <a href="card.php" class="icons-btn d-inline-block bag">
-                    <span class="icon-shopping-bag"></span>
-                    <span class="number">2</span>
-                </a>
-                <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none">
-                    <span class="icon-menu"></span>
-                </a>
-            </div>
+            
         </div>
     </div>
+</div>';
+}
+
+function menuInicioAdmin(){
+  echo '<div class="site-navbar py-2">
+  <div class="search-wrap">
+      <div class="container">
+          <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+          <form action="#" method="post">
+              <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+          </form>
+      </div>
+  </div>
+  <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+          <div class="logo">
+              <div class="site-logo">
+                  <a href="inicioAdmin.php" class="js-logo-clone"><strong class="text-primary">VIDA</strong>Natural</a>
+              </div>
+          </div>
+          <div class="main-nav d-none d-lg-block">
+              <nav class="site-navigation text-right text-md-center" role="navigation">
+                  <ul class="site-menu js-clone-nav d-none d-lg-block">
+                      <li class="active"><a href="inicioAdmin.php">Inicio</a></li>
+                      <li><a href="shop.php">Tienda</a></li>
+                      <li class="has-children">
+                          <a href="#">Productos</a>
+                          <ul class="dropdown">
+                              <li><a href="#">Suplementos</a></li>
+                              <li class="has-children">
+                                  <a href="#">Vitaminas</a>
+                                  <ul class="dropdown">
+                                      <li><a href="#">Suplementos</a></li>
+                                      <li><a href="#">Vitaminas</a></li>
+                                      <li><a href="#">Dieta &amp; Nutricion</a></li>
+                                      <li><a href="#">Te &amp; Cafe</a></li>
+                                  </ul>
+                              </li>
+                              <li><a href="#">Dieta &amp; Nutricion</a></li>
+                              <li><a href="#">Te &amp; Cafe</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#about">Acerca de</a></li>
+                      <li><a href="contact.php">Contacto Empresarial</a></li>
+                      <li><a href="dashboard.php">Admin</a></li>
+                  </ul>
+              </nav>
+          </div>
+          
+      </div>
+  </div>
 </div>';
 }
 
@@ -98,12 +140,14 @@ function menuC(){
 
 function menuAdmin()
 {
-  echo '<nav class="dashboard-nav-list"><a href="Inicio.php" class="dashboard-nav-item"><i class="fas fa-home"></i>
+  echo '<nav class="dashboard-nav-list"><a href="InicioAdmin.php" class="dashboard-nav-item"><i class="fas fa-home"></i>
   Ir al inicio </a>
-  <div class="dashboard-nav-dropdown"><a href="dashUsuarios.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Usuarios </a></div>
-  <div class="dashboard-nav-dropdown"><a href="dashInventario.php" class="dashboard-nav-item"><i class="fa-solid fa-boxes-stacked"></i></i> Inventario </a>
-  <div class="dashboard-nav-dropdown"><a href="dashCategoria.php" class="dashboard-nav-item"><i class="fa-solid fa-boxes-stacked"></i></i> Categoria </a>
-  <div class="dashboard-nav-dropdown"><a href="dashProveedores.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Proveedores </a></div>
+  <div class="dashboard-nav-dropdown"><a href="Usuario/dashUsuarios.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Usuarios </a></div>
+  <div class="dashboard-nav-dropdown"><a href="Producto/dashInventario.php" class="dashboard-nav-item"><i class="fa-solid fa-boxes-stacked"></i></i> Inventario </a>
+  <div class="dashboard-nav-dropdown"><a href="Categoria/dashCategoria.php" class="dashboard-nav-item"><i class="fa-solid fa-boxes-stacked"></i></i> Categoria </a>
+  <div class="dashboard-nav-dropdown"><a href="Proveedor/dashProveedores.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Proveedores </a></div>
+  <div class="dashboard-nav-dropdown"><a href="ContactoEmp/dashContactoEmp.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Contactos Empresariales </a></div>
+  <div class="dashboard-nav-dropdown"><a href="Auditoria/dashAudit.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Auditorias </a></div>
   <div class="dashboard-nav-dropdown-menu"><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#" class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item">Images</a><a href="#" class="dashboard-nav-dropdown-item">Video</a></div>
   </div>
 
@@ -112,7 +156,7 @@ function menuAdmin()
   </div>
   </div>
   <div class="nav-item-divider"></div>
-  <a href="../index.php" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+  <a href="../../index.php" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
   </nav>';
 }
 
@@ -122,7 +166,7 @@ function footerC(){
     echo '<div class="container">
     <div class="row">
       <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-
+        <a name="about"></a>
         <div class="block-7">
           <h3 class="footer-heading mb-4">About <strong class="text-primary">Pharmative</strong></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates
@@ -173,3 +217,34 @@ function footerLogin()
       echo '<script src="../View/js/jquery.min.js"></script>
             <script src="../View/js/bootstrap.min.js"></script>'; 
   }
+
+
+  ?>
+
+<!--Start of Tawk.to Script-->
+
+<script type="text/javascript">
+
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+(function(){
+
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+s1.async=true;
+
+s1.src='https://embed.tawk.to/639b4d36daff0e1306dcd75f/1gkbab73a';
+
+s1.charset='UTF-8';
+
+s1.setAttribute('crossorigin','*');
+
+s0.parentNode.insertBefore(s1,s0);
+
+})();
+
+</script>
+
+<!--End of Tawk.to Script-->
+<body>
+</body>

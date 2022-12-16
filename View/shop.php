@@ -32,7 +32,7 @@ headerG();
 </div>
 <div class="site-section bg-light">
   <div class="container">
-    
+  <h3>Próximamente lista de productos</h3> 
     
 
     <div class="row">

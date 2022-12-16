@@ -1,6 +1,6 @@
 <?php
-    include_once 'Generales.php';
-    include_once '../Controller/CategoriaController.php';
+    include_once 'GeneralesCategoria.php';
+    include_once '../../Controller/CategoriaController.php';
 
     $datos = ConsultarDatosCategoria($_GET["q"]);
     ?>

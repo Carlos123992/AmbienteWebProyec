@@ -1,6 +1,6 @@
 <?php
-    include_once 'Generales.php';
-    include_once '../Controller/CategoriaController.php';
+    include_once 'GeneralesProveedor.php';
+    include_once '../../Controller/ProveedorController.php';
     ?>
 
  <!DOCTYPE html>
@@ -28,10 +28,10 @@
                  <div class='container'>
                      <div class='card'>
                          <div class='card-header'>
-                             <h1>Lista de Categorias</h1>
+                             <h1>Lista de Proveedores</h1>
                          </div>
                          <br>
-                         <a href="AgregarCategoria.php" class="btn btn-primary px-5 py-3" style="width: 20%; margin-left:40%;">Agregar</a>
+                         <a href="AgregarProveedor.php" class="btn btn-primary px-5 py-3" style="width: 20%; margin-left:40%;">Agregar</a>
                          <div class='card-body'>
                          
                          <div class="row">
@@ -40,15 +40,15 @@
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th>ID de la Categoria</th>
+                                    <th>ID del Proveedor</th>
                                     <th>Nombre</th>
-                                    <th>Descripcion</th>
+                                    <th>Direccion</th>
                                     <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php
-                                    CargarCategorias();
+                                    CargarProveedores();
                                 ?>
                             </tbody>
                         </table>

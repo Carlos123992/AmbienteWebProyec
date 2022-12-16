@@ -1,6 +1,6 @@
 <?php
-    include_once 'Generales.php';
-    include_once '../Controller/ProductoController.php';
+    include_once 'GeneralesCategoria.php';
+    include_once '../../Controller/CategoriaController.php';
     ?>
 
  <!DOCTYPE html>
@@ -28,9 +28,10 @@
                  <div class='container'>
                      <div class='card'>
                          <div class='card-header'>
-                             <h1>Inventario de Productos</h1>
+                             <h1>Lista de Categorias</h1>
                          </div>
-                         <a href="agregarProducto.php" class="btn btn-primary px-5 py-3" style="width: 20%; margin-left:40%;">Agregar</a>
+                         <br>
+                         <a href="AgregarCategoria.php" class="btn btn-primary px-5 py-3" style="width: 20%; margin-left:40%;">Agregar</a>
                          <div class='card-body'>
                          
                          <div class="row">
@@ -39,19 +40,15 @@
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th>ID del Producto</th>
+                                    <th>ID de la Categoria</th>
                                     <th>Nombre</th>
-                                    <th>Predio</th>
-                                    <th>Stock</th>
-                                    <th>ID del Proveedor</th>
-                                    <th>ID de la categoria</th>
-                                    <th>Imagen</th>
+                                    <th>Descripcion</th>
                                     <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php
-                                    CargarProductos();
+                                    CargarCategorias();
                                 ?>
                             </tbody>
                         </table>
@@ -65,14 +62,6 @@
              </div>
          </div>
      </div>
-
-
-
-
-
-
-
-
      <script src="../View/js/dash.min.js"></script>
 
 

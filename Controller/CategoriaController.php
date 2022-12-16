@@ -1,5 +1,5 @@
 <?php
-include_once "../Model/CategoriaModel.php";
+include_once "../../Model/CategoriaModel.php";
 
 function CargarCategorias(){
     $datosCategoria = ListarCategorias();
