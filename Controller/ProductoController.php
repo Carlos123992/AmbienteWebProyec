@@ -20,7 +20,7 @@ function CargarProductos(){
         }
     }
 }
-/*
+
 function CargarProductosInvi(){
     $datosProducto = ListarProductos();
     if($datosProducto -> num_rows > 0)
@@ -38,7 +38,7 @@ function CargarProductosInvi(){
         }
     }
 }
-*/
+
 
 function CargarProveedores(){
     $datosProveedor = ListarProveedores();
