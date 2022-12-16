@@ -1,38 +1,25 @@
-<?php 
+<?php
    include_once 'Generales.php';
-  ?> 
-
+  ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php 
+<?php
 headerG();
 ?>
 </head>
 <!--Start of Tawk.to Script-->
-
 <script type="text/javascript">
-
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-
 (function(){
-
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-
 s1.async=true;
-
 s1.src='https://embed.tawk.to/639b4d36daff0e1306dcd75f/1gkbab73a';
-
 s1.charset='UTF-8';
-
 s1.setAttribute('crossorigin','*');
-
 s0.parentNode.insertBefore(s1,s0);
-
 })();
-
 </script>
-
 <!--End of Tawk.to Script-->
 <body>
 <div class="site-wrap">
@@ -40,20 +27,18 @@ s0.parentNode.insertBefore(s1,s0);
     menuC();
     ?>
   </div>
-
 <div class="owl-carousel owl-single px-0">
     <div class="site-blocks-cover overlay" style="background-image: url('images/hero_bg.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mx-auto align-self-center">
                     <div class="site-block-cover-content text-center">
-                        <h1 class="mb-0"><strong class="text-primary">Vida Natural</strong> Abierto las 24 Horas</h1>
+                        <h1 class="mb-0"><strong class="text-primary">Vida Natural</strong> Abierto de 7 a.m. - 7 p.m. </h1>
                         <div class="row justify-content-center mb-5">
                             <div class="col-lg-6 text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex perspiciatis non quibusdam vel quidem.</p>
                             </div>
                         </div>
-                        <p><a href="#" class="btn btn-primary px-5 py-3">Compra Ahora</a></p>
+                        <p><a href="shop.php" class="btn btn-primary px-5 py-3">Compra Ahora</a></p>
                     </div>
                 </div>
             </div>
@@ -67,48 +52,43 @@ s0.parentNode.insertBefore(s1,s0);
                         <h1 class="mb-0">Nuevos Medicamentos <strong class="text-primary">Todo los Dias</strong></h1>
                         <div class="row justify-content-center mb-5">
                             <div class="col-lg-6 text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex perspiciatis non quibusdam vel quidem.</p>
                             </div>
                         </div>
-                        <p><a href="#" class="btn btn-primary px-5 py-3">Compra Ahora</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <div class="site-section py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
                 <div class="feature">
-                    <span class="wrap-icon"><img src="images/doctor2.png" style="width:50px; height:50px; margin-top:10px"/></span>
+                <span class="wrap-icon flaticon-test-tubes"></span>
                     <h3><a href="#">Personal Profesional</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laborum voluptates excepturi neque labore .</p>
-                    <p><a href="#" class="d-flex align-items-center"><span class="mr-2">Saber mas</span> <span class="icon-keyboard_arrow_right"></span></a></p>
+                    <p>Cualquier tipo de consulta. Informese con nuestros accesores por medio del chat en vivo</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature">
                     <span class="wrap-icon flaticon-medicine"></span>
                     <h3><a href="#">Nuevos Medicamentos Todo los Dias</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laborum voluptates excepturi neque labore .</p>
-                    <p><a href="#" class="d-flex align-items-center"><span class="mr-2">Saber mas</span> <span class="icon-keyboard_arrow_right"></span></a></p>
+                    <p>Todos los medicamentos nuevos al precio del mañana.</p>
+                    <p>Informese.</p>
+                    <p><a href="shop.php" class="d-flex align-items-center"><span class="mr-2">Saber mas</span> <span class="icon-keyboard_arrow_right"></span></a></p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature">
                     <span class="wrap-icon flaticon-test-tubes"></span>
                     <h3><a href="#">Resultados Garantizados</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laborum voluptates excepturi neque labore .</p>
-                    <p><a href="#" class="d-flex align-items-center"><span class="mr-2">Saber mas</span> <span class="icon-keyboard_arrow_right"></span></a></p>
+                    <p>Los mejores resultados con suplementos naturales del mercado.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <div class="site-section bg-light">
     <div class="container">
         <div class="row">
@@ -121,38 +101,27 @@ s0.parentNode.insertBefore(s1,s0);
                 <div class="nonloop-block-3 owl-carousel">
                     <div class="text-center item mb-4 item-v2">
                         <span class="onsale">Sale</span>
-                        <a href="shop-single.php"> <img src="images/product_03.png" alt="Image"></a>
-                        <h3 class="text-dark"><a href="shop-single.php">Umcka Cold Care</a></h3>
-                        <p class="price">$120.00</p>
+                        <a href="shop.php"> <img src="images/product_03.png" alt="Image"></a>
+                        <h3 class="text-dark"><a href="shop.php">BIODERMA</a></h3>
+                        <p class="price">$100.00</p>
                     </div>
                     <div class="text-center item mb-4 item-v2">
-                        <a href="shop-single.php"> <img src="images/product_01.png" alt="Image"></a>
-                        <h3 class="text-dark"><a href="shop-single.php">Umcka Cold Care</a></h3>
-                        <p class="price">$120.00</p>
+                        <a href="shop.php"> <img src="images/product_01.png" alt="Image"></a>
+                        <h3 class="text-dark"><a href="shop.php">Chanca Piedra</a></h3>
+                        <p class="price">$90.00</p>
                     </div>
                     <div class="text-center item mb-4 item-v2">
                         <span class="onsale">Sale</span>
-                        <a href="shop-single.php"> <img src="images/product_02.png" alt="Image"></a>
-                        <h3 class="text-dark"><a href="shop-single.php">Umcka Cold Care</a></h3>
-                        <p class="price">$120.00</p>
+                        <a href="shop.php"> <img src="images/product_02.png" alt="Image"></a>
+                        <h3 class="text-dark"><a href="shop.php">cetylPure</a></h3>
+                        <p class="price">$70.00</p>
                     </div>
                     <div class="text-center item mb-4 item-v2">
-                        <a href="shop-single.php"> <img src="images/product_04.png" alt="Image"></a>
+                        <a href="shop.php"> <img src="images/product_04.png" alt="Image"></a>
                         <h3 class="text-dark"><a href="shop-single.php">Umcka Cold Care</a></h3>
                         <p class="price">$120.00</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="site-section bg-image overlay" style="background-image: url('images/hero_bg_2.jpg');">
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-7">
-                <h3 class="text-white">Registrese para obtener hasta un 55% de DESCUENTO</h3>
-                <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam.</p>
-                <p class="mb-0"><a href="#" class="btn btn-outline-white">Registrarse</a></p>
             </div>
         </div>
     </div>
@@ -177,15 +146,15 @@ s0.parentNode.insertBefore(s1,s0);
                     <h2 class="mb-5">¿Por que <strong class="text-primary">Nosotros?</strong></h2>
                     <div class="step-number d-flex mb-4">
                         <span>1</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore</p>
+                        <p>Mejoras en precio constantemente</p>
                     </div>
                     <div class="step-number d-flex mb-4">
                         <span>2</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore</p>
+                        <p>Profesionales calificados para sus tratamientos</p>
                     </div>
                     <div class="step-number d-flex mb-4">
                         <span>3</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore</p>
+                        <p>Atención al cliente inmediata </p>
                     </div>
                 </div>
             </div>
@@ -208,13 +177,7 @@ s0.parentNode.insertBefore(s1,s0);
 <script src="js/main.js"></script>
 <script src="../View/js/login.js"></script>
   </body>
-
-    <?php 
-   
+    <?php
     ?>
-
-
-
 </body>
-
 </html>

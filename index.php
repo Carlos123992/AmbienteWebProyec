@@ -21,11 +21,11 @@
             <div class="row justify-content-md-center h-100">
                 <div class="card-wrapper">
                     <div class="brand">
-                        <img src="View/images/logo.jpg" width="144" height="144" style="right: 200px;">
+                        <img src="View/images/logo.jpg" width="144" height="144" style="margin-left: 18vh;">
                     </div>
                     <div class="card fat">
                         <div class="card-body">
-                            <h4 class="card-title">Login</h4>
+                            <h4 class="card-title" style="margin-left:15vh;">Inicio de sesión</h4>
                             <form method="POST" class="my-login-validation" novalidate="">
                                 <div class="form-group">
                                     <label for="lblCorreo" class="control-label">Correo</label>

@@ -10,12 +10,11 @@ function headerLogin()
         <link href="View/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="View/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="View/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-        <link href="View/css/bootstrap-social.css" rel="stylesheet" type="text/css">	    
+        <link href="View/css/bootstrap-social.css" rel="stylesheet" type="text/css">        
         <link href="View/css/templatemo_style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
          <link rel="stylesheet" type="text/css" href="css/my-login.css">';
 }
-
 function headerG(){
 echo '
 <title>Macro biotica &mdash; Vida Natural</title>
@@ -32,9 +31,7 @@ echo '
 <script src="https://kit.fontawesome.com/295839e1c0.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/aos.css">
 <link rel="stylesheet" href="css/style.css">';
-
 }
-
 function menuC(){
     echo '<div class="site-navbar py-2">
     <div class="search-wrap">
@@ -57,34 +54,15 @@ function menuC(){
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                         <li class="active"><a href="inicio.php">Inicio</a></li>
                         <li><a href="shop.php">Tienda</a></li>
-                        <li class="has-children">
-                            <a href="#">Productos</a>
-                            <ul class="dropdown">
-                                <li><a href="#">Suplementos</a></li>
-                                <li class="has-children">
-                                    <a href="#">Vitaminas</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Suplementos</a></li>
-                                        <li><a href="#">Vitaminas</a></li>
-                                        <li><a href="#">Dieta &amp; Nutricion</a></li>
-                                        <li><a href="#">Te &amp; Cafe</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Dieta &amp; Nutricion</a></li>
-                                <li><a href="#">Te &amp; Cafe</a></li>
-                            </ul>
-                        </li>
                         <li><a href="#about">Acerca de</a></li>
                         <li><a href="contact.php">Contacto Empresarial</a></li>
                     </ul>
                 </nav>
             </div>
-            
         </div>
     </div>
 </div>';
 }
-
 function menuInicioAdmin(){
   echo '<div class="site-navbar py-2">
   <div class="search-wrap">
@@ -116,12 +94,12 @@ function menuInicioAdmin(){
                                   <ul class="dropdown">
                                       <li><a href="#">Suplementos</a></li>
                                       <li><a href="#">Vitaminas</a></li>
-                                      <li><a href="#">Dieta &amp; Nutricion</a></li>
-                                      <li><a href="#">Te &amp; Cafe</a></li>
+                                      <li><a href="#">Dieta & Nutricion</a></li>
+                                      <li><a href="#">Te & Cafe</a></li>
                                   </ul>
                               </li>
-                              <li><a href="#">Dieta &amp; Nutricion</a></li>
-                              <li><a href="#">Te &amp; Cafe</a></li>
+                              <li><a href="#">Dieta & Nutricion</a></li>
+                              <li><a href="#">Te & Cafe</a></li>
                           </ul>
                       </li>
                       <li><a href="#about">Acerca de</a></li>
@@ -130,14 +108,10 @@ function menuInicioAdmin(){
                   </ul>
               </nav>
           </div>
-          
       </div>
   </div>
 </div>';
 }
-
-
-
 function menuAdmin()
 {
   echo '<nav class="dashboard-nav-list"><a href="InicioAdmin.php" class="dashboard-nav-item"><i class="fas fa-home"></i>
@@ -150,7 +124,6 @@ function menuAdmin()
   <div class="dashboard-nav-dropdown"><a href="Auditoria/dashAudit.php" class="dashboard-nav-item"><i class="fas fa-users"></i> Auditorias </a></div>
   <div class="dashboard-nav-dropdown-menu"><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#" class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item">Images</a><a href="#" class="dashboard-nav-dropdown-item">Video</a></div>
   </div>
-
   <div class="dashboard-nav-dropdown"><a href="#!" class="dashboard-nav-item"><i class="fa-solid fa-exclamation"></i> Auxiliar </a>
   <div class="dashboard-nav-dropdown-menu"><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#" class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item"> Projections</a>
   </div>
@@ -159,28 +132,22 @@ function menuAdmin()
   <a href="../../index.php" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
   </nav>';
 }
-
-
-
 function footerC(){
     echo '<div class="container">
     <div class="row">
       <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
         <a name="about"></a>
         <div class="block-7">
-          <h3 class="footer-heading mb-4">About <strong class="text-primary">Pharmative</strong></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates
-            sed dolorum excepturi iure eaque, aut unde.</p>
+          <h3 class="footer-heading mb-4">Sobre <strong class="text-primary">Macrobiotica</strong></h3>
+          <p>Somos un emprendimiento familiar con un gran futuro y mejoras constantes.</p>
         </div>
-
       </div>
       <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
-        <h3 class="footer-heading mb-4">Navigation</h3>
+        <h3 class="footer-heading mb-4">Navegación</h3>
         <ul class="list-unstyled">
-          <li><a href="#">Supplements</a></li>
-          <li><a href="#">Vitamins</a></li>
-          <li><a href="#">Diet &amp; Nutrition</a></li>
-          <li><a href="#">Tea &amp; Coffee</a></li>
+          <li><a href="inicio.php">Inicio</a></li>
+          <li><a href="shop.php">Tienda</a></li>
+          <li><a href="contact.php">Contacto Empresarial</a></li>
         </ul>
       </div>
       <div class="col-md-6 col-lg-3">
@@ -207,44 +174,27 @@ function footerC(){
           <!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. -->
         </p>
       </div>
-
     </div>
   </div>';
-
 }
 function footerLogin()
   {
       echo '<script src="../View/js/jquery.min.js"></script>
             <script src="../View/js/bootstrap.min.js"></script>'; 
   }
-
-
   ?>
-
 <!--Start of Tawk.to Script-->
-
 <script type="text/javascript">
-
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-
 (function(){
-
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-
 s1.async=true;
-
 s1.src='https://embed.tawk.to/639b4d36daff0e1306dcd75f/1gkbab73a';
-
 s1.charset='UTF-8';
-
 s1.setAttribute('crossorigin','*');
-
 s0.parentNode.insertBefore(s1,s0);
-
 })();
-
 </script>
-
 <!--End of Tawk.to Script-->
 <body>
 </body>

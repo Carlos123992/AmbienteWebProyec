@@ -1,5 +1,6 @@
 <?php 
  include_once 'Generales.php';
+ include_once '../Controller/ProductoController.php';
 ?>
 
 <!DOCTYPE html>
@@ -36,91 +37,23 @@ headerG();
     
 
     <div class="row">
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <span class="onsale">Sale</span>
-        <a href="shop-single.php"> <img src="images/product_01.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Bioderma</a></h3>
-        <p class="price"><del>95.00</del> &mdash; $55.00</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <a href="shop-single.php"> <img src="images/product_02.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Chanca Piedra</a></h3>
-        <p class="price">$70.00</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <a href="shop-single.php"> <img src="images/product_03.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Umcka Cold Care</a></h3>
-        <p class="price">$120.00</p>
-      </div>
+    <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID del Producto</th>
+                                    <th>Nombre</th>
+                                    <th>Predio</th>
+                                    <th>Cantidad en tienda</th>
 
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-
-        <a href="shop-single.php"> <img src="images/product_04.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Cetyl Pure</a></h3>
-        <p class="price"><del>45.00</del> &mdash; $20.00</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <a href="shop-single.php"> <img src="images/product_05.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">CLA Core</a></h3>
-        <p class="price">$38.00</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <span class="onsale">Sale</span>
-        <a href="shop-single.php"> <img src="images/product_06.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Poo Pourri</a></h3>
-        <p class="price"><del>$89</del> &mdash; $38.00</p>
-      </div>
-
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <span class="onsale">Sale</span>
-        <a href="shop-single.php"> <img src="images/product_01.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Bioderma</a></h3>
-        <p class="price"><del>95.00</del> &mdash; $55.00</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <a href="shop-single.php"> <img src="images/product_02.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Chanca Piedra</a></h3>
-        <p class="price">$70.00</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <a href="shop-single.php"> <img src="images/product_03.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Umcka Cold Care</a></h3>
-        <p class="price">$120.00</p>
-      </div>
-      
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-      
-        <a href="shop-single.php"> <img src="images/product_04.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Cetyl Pure</a></h3>
-        <p class="price"><del>45.00</del> &mdash; $20.00</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <a href="shop-single.php"> <img src="images/product_05.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">CLA Core</a></h3>
-        <p class="price">$38.00</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 text-center item mb-4 item-v2">
-        <span class="onsale">Sale</span>
-        <a href="shop-single.php"> <img src="images/product_06.png" alt="Image"></a>
-        <h3 class="text-dark"><a href="shop-single.php">Poo Pourri</a></h3>
-        <p class="price"><del>$89</del> &mdash; $38.00</p>
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-md-12 text-center">
-        <div class="site-block-27">
-          <ul>
-            <li><a href="#">&lt;</a></li>
-            <li class="active"><span>1</span></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#">&gt;</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+                                   
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                    CargarProductosInvi();
+                                ?>
+                            </tbody>
+                        </table>
   </div>
 </div>
 <footer class="site-footer">
