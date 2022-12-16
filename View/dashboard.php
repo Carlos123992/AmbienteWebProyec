@@ -37,17 +37,6 @@
              </div>
          </div>
      </div>
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
->>>>>>> f581c9d5214b9648eb808938a5b58349c5ece5e0
      <script src="../View/js/dash.min.js"></script>
 
 

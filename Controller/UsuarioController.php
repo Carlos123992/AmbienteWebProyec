@@ -17,14 +17,13 @@ if(isset($_POST["btnIngresar"]))
         $resultado = mysqli_fetch_array($datosUsuario);
 
         $_SESSION["sesionNombre"] = $resultado["nombre"];
-        header("Location: View\dashboard.php");
+        header("Location: View\inicio.php");
     }
     else
     {
         header("Location: inicio.php");
     }
 }
-
 function CargarUsuarios(){
     $datosUsuarios = ListarUsuarios();
     if($datosUsuarios -> num_rows > 0)

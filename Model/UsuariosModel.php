@@ -10,7 +10,6 @@ function ValidarCredenciales($correo, $password)
     CloseDB($enlace);
     return $datosUsuario;
 }
-
 function ListarUsuarios(){
     $enlace = OpenDB();
     $procedimiento = "CALL listarUsuarios();";
