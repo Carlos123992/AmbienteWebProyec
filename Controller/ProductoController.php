@@ -1,6 +1,6 @@
 <?php
 
-include "../Model/ProductoModel.php";
+include_once __DIR__ . ("../../Model/ProductoModel.php");
 
 function CargarProductos(){
     $datosProducto = ListarProductos();
@@ -20,6 +20,7 @@ function CargarProductos(){
         }
     }
 }
+/*
 function CargarProductosInvi(){
     $datosProducto = ListarProductos();
     if($datosProducto -> num_rows > 0)
@@ -37,7 +38,7 @@ function CargarProductosInvi(){
         }
     }
 }
-
+*/
 
 function CargarProveedores(){
     $datosProveedor = ListarProveedores();

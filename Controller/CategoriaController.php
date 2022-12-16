@@ -1,5 +1,5 @@
 <?php
-include_once "../../Model/CategoriaModel.php";
+include_once __DIR__ ."../../Model/CategoriaModel.php";
 
 function CargarCategorias(){
     $datosCategoria = ListarCategorias();
@@ -16,7 +16,7 @@ function CargarCategorias(){
         }
     }
 }
-
+/*
 function VerificarCategoria($id_Categoria){
     $datosCategoria = Categoria_producto($id_Categoria);
     if($datosCategoria -> num_rows > 0){
@@ -25,7 +25,7 @@ function VerificarCategoria($id_Categoria){
         //se borra
     }
 }
-
+*/
 function ConsultarDatosCategoria($id_Categoria)
 {
     $datos = ConsultarDatosCategoriaModel($id_Categoria);   
