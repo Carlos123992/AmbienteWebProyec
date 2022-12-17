@@ -18,4 +18,35 @@ function ListarUsuarios(){
     CloseDB($enlace);
     return $datosUsuario;
 }
+
+
+function AgregarUsuarioModel($Nombre, $Apellido, $Correo, $Password)
+{
+    $enlace = OpenDB();
+
+    $procedimiento = "call acciones_usuario(0, 0,'$Nombre','$Apellido','$Correo', '$Password', 0, 1);";
+    $enlace -> query($procedimiento);
+
+    CloseDB($enlace);
+}
+
+function ConsultarDatosUsuarioModel($id_Usuario){
+    $enlace = OpenDB();
+    
+    $procedimiento = "call ConsultarUsuarioId($id_Usuario);";
+    $datos = $enlace -> query($procedimiento);
+
+    CloseDB($enlace);
+    return $datos;
+}
+
+function ActualizarUsuarioModel($Nombre, $Apellido, $Correo, $Password, $Id)
+{
+    $enlace = OpenDB();
+
+    $procedimiento = "call acciones_usuario(1, $Id,'$Nombre','$Apellido','$Correo', '$Password', 0, 1);";
+    $enlace -> query($procedimiento);
+
+    CloseDB($enlace);
+}
 ?>
